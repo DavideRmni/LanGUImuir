@@ -83,9 +83,11 @@ Files are automatically saved in the /log folder. Format: langmuir_data_YYYYMMDD
 Debug Console (Ctrl+Shift+D): View raw serial data stream.
 
 ⚠️ Compatibility Note
+
 This software uses import winsound for audio alerts, which is specific to Windows.
 
 Linux/Mac Users: Please comment out lines referring to winsound or AudioNotifier to prevent crashes.
 
 🤝 Contributing
+
 Contributions are welcome! Please ensure any Pull Request maintains backward compatibility with the existing serial protocol.
